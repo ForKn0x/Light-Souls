@@ -158,7 +158,7 @@ class World():
     def draw(self):
         for tile in self.tile_list:
             screen.blit(tile[0], tile[1])
-            pygame.draw.rect(screen, (255, 255, 255), tile[1], 2)
+            #pygame.draw.rect(screen, (0, 0, 0), tile[1], 2)
 
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y):
